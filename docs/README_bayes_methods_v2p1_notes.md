@@ -3,9 +3,8 @@
 ## Purpose
 
 Version v2p1 is the final selected Bayesian workflow for formal inference. It
-preserves the working nonnegative Bayesian structure from earlier versions
-while correcting unit-of-analysis problems for outflow volume, inflow volume,
-and residue. Concentration and inflow concentration remain at the analyte-row
+corrects unit-of-analysis problems for outflow volume, inflow volume, and
+residue. Concentration and inflow concentration remain at the analyte-row
 level.
 
 The latent outflow-volume process and observation likelihood now operate once

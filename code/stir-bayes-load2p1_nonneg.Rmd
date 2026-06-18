@@ -1440,7 +1440,7 @@ pick_key_vars_v2p1 <- function(fit) {
   # If you want to *force include* some known v2p1 names, add them here:
   # (These are optional; only kept if they actually exist in the fit.)
   force_include <- c(
-    # Typical names in your lineage; safe because we intersect with vars
+    # Typical names in the model output; safe because we intersect with vars
     "beta_stir", "beta_STIR", "b_stir",
     "beta_cin",  "beta_CIN",  "b_cin",
     "beta_vin",  "beta_VIN",  "b_vin",

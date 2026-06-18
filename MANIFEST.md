@@ -16,9 +16,6 @@ workflow for formal inference in this archive.
 - `code/stir-bayes-backend.R`
 - `code/stir-bayes-load2p1_nonneg.Rmd`
 - `code/m_stir_mogp_v2p1.stan`
-- Historical Bayesian lineage files retained for traceability:
-  - `code/stir-bayes-load1p8_nonneg.Rmd`
-  - `code/m_stir_mogp_v1p8.stan`
 
 ## Included Data Inputs
 
@@ -48,19 +45,7 @@ workflow for formal inference in this archive.
 - STIR calculation documentation: `docs/STIR calculations.md` and `.pdf`
 - License: `LICENSE`
 
-## Excluded From The Full Development Repository
-
-This repository intentionally contains only the Bayesian analysis release
-materials needed to reproduce the v2p1 formal-inference workflow. Broader
-development materials, non-Bayesian project components, superseded Bayesian
-archives, compiled Stan executables, saved fit objects, CmdStan run
-directories, local IDE metadata, R session files, and temporary files are
-excluded.
-
 ## Notes
 
-v2p1 is the final and selected Bayesian model for formal inference. Earlier
-v1p8 source files are retained only as historical lineage because v2p1 builds
-from that workflow while correcting the unit of analysis for volume, VIN, and
-residue. Users reproducing the analysis should run the v2p1 driver and Stan
-model.
+v2p1 is the final and selected Bayesian model for formal inference. Users
+reproducing the analysis should run the v2p1 driver and Stan model.

@@ -1,10 +1,18 @@
+![Kerbel long-term tillage impacts on water quality](figs/banner.png)
+
 # Chapter 2 Tillage Impacts on Water Quality
+
+**Author:** AJ Brown ([ansleybrown1337](https://github.com/ansleybrown1337))  
+**Contact:** [ansley.brown@colostate.edu](mailto:ansley.brown@colostate.edu)  
+**Program:** [CSU Agricultural Water Quality Program](https://waterquality.colostate.edu)
 
 This repository contains the Python data-processing workflow and Bayesian
 modeling code for the Kerbel long-term tillage impacts water-quality analysis.
 It is intended as a focused release archive for the Chapter 2 manuscript and
-Zenodo citation, not as a full working copy of the broader development
-repository.
+Zenodo citation. This work is part of AJ Brown's PhD dissertation research in
+partial fulfillment of the degree requirements at Colorado State University.
+The underlying field data were collected as part of the CSU Agricultural Water
+Quality Program.
 
 The workflow integrates edge-of-field water-quality observations, crop records,
 tillage operations, STIR metrics, and residue measurements into a Bayesian
@@ -29,20 +37,9 @@ out/     Processed pipeline outputs and final v2p1 Bayesian model outputs
 - Final selected Bayesian model source and driver:
   - selected inference workflow: `code/stir-bayes-load2p1_nonneg.Rmd`
   - selected Stan source: `code/m_stir_mogp_v2p1.stan`
-- Historical v1p8 Bayesian source files retained only for version lineage
 - Final v2p1 Bayesian output CSVs and figures
 - Method documentation relevant to the Chapter 2 tillage and water-quality
   analysis
-
-## What Was Intentionally Excluded
-
-- Non-Bayesian development components from the broader project repository
-- Historical Bayesian model archives older than the retained v1p8/v2p1
-  lineage files
-- Compiled Stan executables (`.exe`) and saved fit objects
-- Local IDE, R session, and temporary files
-
-See `MANIFEST.md` for a more explicit inclusion and exclusion audit.
 
 ## Reproducing The Python Data Pipeline
 
@@ -93,8 +90,7 @@ The v2p1 workflow corrects unit-of-analysis pseudo-replication by modeling:
 - residue once per planting-season plot unit.
 
 The v2p1 workflow is the final and selected version for formal inference in
-this release. Earlier v1p8 files are retained only as historical Bayesian model
-lineage and should not be treated as the selected analysis.
+this release.
 
 ## Key Outputs
 
@@ -120,4 +116,4 @@ Audit files for v2p1 event, VIN, and residue mappings are also included in
 
 ## License
 
-This release uses the license file included in this archive.
+This release uses the GNU General Public License v2.0. See `LICENSE` for details.

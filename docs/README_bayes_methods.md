@@ -54,7 +54,7 @@ summary:
 
 These diagnostics should be reported with the analysis. They do not change the
 versioning decision for this repository: v2p1 is the selected model for formal
-inference, and v1p8 is superseded.
+inference.
 
 ## Model Units And Mappings
 
@@ -280,8 +280,6 @@ The serialized completed fit is:
 
 ## Version History
 
-v2p1 retains the earlier stabilized scientific structure while correcting
-unit-of-analysis pseudo-replication for outflow volume, VIN, and residue. See
-`docs/bayes-model_versions.md` for the full model lineage and convergence
-status, and `docs/README_bayes_methods_v2p1_notes.md` for the detailed v2p1
+v2p1 corrects unit-of-analysis pseudo-replication for outflow volume, VIN, and
+residue. See `docs/README_bayes_methods_v2p1_notes.md` for the detailed v2p1
 interface and audit notes.

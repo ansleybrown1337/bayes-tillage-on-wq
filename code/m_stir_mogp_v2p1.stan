@@ -4,7 +4,7 @@
 // - Represents inflow volume once per physical plot-event, including missing-value imputation.
 // - Applies the residue likelihood/imputation once per planting-season plot unit.
 // - Maps event-level volume and residue-unit states back to analyte rows.
-// - Retains the v1p8 scientific structure and scalar beta_vol.
+// - Retains the selected scientific structure and scalar beta_vol.
 // - Residue handled with a unit-level logit-normal regression on logit(residue).
 // - Missing residue units are imputed as bounded parameters.
 // - Uses row aliases of shared RES_star_unit values in volume + concentration.
