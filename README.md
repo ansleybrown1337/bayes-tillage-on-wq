@@ -2,6 +2,8 @@
 
 # Chapter 2 Tillage Impacts on Water Quality
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20740274.svg)](https://doi.org/10.5281/zenodo.20740274)
+
 **Author:** AJ Brown ([ansleybrown1337](https://github.com/ansleybrown1337))  
 **Contact:** [ansley.brown@colostate.edu](mailto:ansley.brown@colostate.edu)  
 **Program:** [CSU Agricultural Water Quality Program](https://waterquality.colostate.edu)
@@ -113,6 +115,24 @@ Audit files for v2p1 event, VIN, and residue mappings are also included in
 - `docs/bayes-model_versions.md`
 - `docs/STIR calculations.md`
 - `docs/STIR calculations.pdf`
+
+## Citation
+
+AJ Brown. (2026). ansleybrown1337/bayes-tillage-on-wq: V2.1 (v2p1).
+Zenodo. [https://doi.org/10.5281/zenodo.20740274](https://doi.org/10.5281/zenodo.20740274)
+
+```bibtex
+@software{aj_brown_2026_20740274,
+  author       = {AJ Brown},
+  title        = {ansleybrown1337/bayes-tillage-on-wq: V2.1},
+  month        = jun,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v2p1},
+  doi          = {10.5281/zenodo.20740274},
+  url          = {https://doi.org/10.5281/zenodo.20740274},
+}
+```
 
 ## License
 
